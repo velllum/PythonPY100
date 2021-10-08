@@ -3,7 +3,7 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 21
+  - offset: 49
     length: 70
     placeholder_text: '# TODO напишите с помощью if-elif-else условие проверки скорости
       ветра'
@@ -11,8 +11,8 @@ files:
       length: 70
       offset: 21
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: '# TODO'
   text: |
     wind = int(input())
@@ -22,6 +22,8 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  time: Fri, 08 Oct 2021 12:57:11 UTC
 record: -1
 post_submission_on_open: true

@@ -4,15 +4,15 @@ files:
   visible: true
   placeholders:
   - offset: 16
-    length: 66
+    length: 88
     placeholder_text: '...:  # ToDo напишите сюда условие проверки нечетности чисел
       А и B'
     initial_state:
       length: 66
       offset: 16
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Failed
     encrypted_possible_answer: 'A % 2 == 1 and B % 2 == 1:'
   text: |
     A = 5
@@ -29,5 +29,12 @@ files:
   text: |
     'Числа А и B нечетные'
   learner_created: false
-status: Unchecked
+status: Failed
+feedback:
+  message: Incorrect
+  time: Fri, 08 Oct 2021 12:44:29 UTC
+  expected: |
+    'Числа А и B нечетные'
+  actual: |
+    Числа А и B нечетные
 record: -1
